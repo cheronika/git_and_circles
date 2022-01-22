@@ -1,10 +1,9 @@
-import sqlite3
 import sys
+from random import randrange
 
 from PyQt5 import uic
 from PyQt5.QtGui import QColor, QPainter
-from PyQt5.QtWidgets import QApplication, QMainWindow, QTableWidgetItem, QPushButton
-from random import randrange
+from PyQt5.QtWidgets import QApplication, QMainWindow
 
 
 class Board(QMainWindow):
